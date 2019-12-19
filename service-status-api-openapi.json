@@ -1,0 +1,57 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Service Status API",
+        "description": "The Service Status API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "api.serverdensity.io."
+    ],
+    "paths": {
+        "\/alerts\/service_alerts.json": {
+            "": {
+                "summary": "Listing service alert metrics",
+                "description": "Devices and services have different alert metrics which you can configure in the ui. The section correspond to the top-level of the alert metric whereas field corresponds to the subsection of the given section.\n",
+                "operationId": "ListingServiceAlertMetrics",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "query",
+                        "description": "Your API token"
+                    }
+                ]
+            }
+        },
+        "\/service-monitor\/last\/serviceId": {
+            "": {
+                "summary": "Location service status (last)",
+                "description": "Get the current results from a service check.\n",
+                "operationId": "LocationServiceStatusLast",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "serviceId",
+                        "in": "path",
+                        "description": "The ID of the service to retrieve the details for."
+                    },
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "description": "Your API token."
+                    },
+                    {
+                        "name": "token",
+                        "in": "query",
+                        "description": "Your API token"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
