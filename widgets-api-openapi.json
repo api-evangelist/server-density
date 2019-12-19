@@ -1,0 +1,67 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Widgets API",
+        "description": "The Widgets API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "api.serverdensity.io."
+    ],
+    "paths": {
+        "\/users\/widgets\/widgetId": {
+            "": {
+                "summary": "Deleting a widget",
+                "description": "Deleting a widget.",
+                "operationId": "DeletingAWidget",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "widgetId",
+                        "in": "path",
+                        "description": "The ID of the widget to delete"
+                    },
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "token",
+                        "in": "body",
+                        "description": "Your API token"
+                    }
+                ]
+            }
+        },
+        "\/users\/widgets\/duplicate\/widgetId": {
+            "": {
+                "summary": "Duplicating a widget",
+                "description": "Duplicating a widget.",
+                "operationId": "DuplicatingAWidget",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "widgetId",
+                        "in": "path",
+                        "description": "The ID of the widget to delete"
+                    },
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "token",
+                        "in": "body",
+                        "description": "Your API token"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
