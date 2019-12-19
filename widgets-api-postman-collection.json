@@ -1,0 +1,103 @@
+{
+    "id": "d515a63b09c84dac2e3cd5136702cfe3",
+    "name": "Widgets API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "629a9c75a0840162d0b19ea3b2f9f6d8",
+            "name": "Deleting a widget",
+            "url": "api.serverdensity.io.\/users\/widgets\/widgetId",
+            "description": "Deleting a widget.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "widgetId",
+                    "description": "The ID of the widget to delete",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d515a63b09c84dac2e3cd5136702cfe3",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed8dcb70ef84e29ef24c279c4d4ad629",
+            "name": "Duplicating a widget",
+            "url": "api.serverdensity.io.\/users\/widgets\/duplicate\/widgetId",
+            "description": "Duplicating a widget.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "widgetId",
+                    "description": "The ID of the widget to delete",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "d515a63b09c84dac2e3cd5136702cfe3",
+            "rawModeData": ""
+        }
+    ]
+}
