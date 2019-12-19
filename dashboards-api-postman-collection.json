@@ -1,0 +1,131 @@
+{
+    "id": "6e84b44e1965baf38619fd7045e41913",
+    "name": "Dashboards API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "1b028039807ddfa770282d8577054e2a",
+            "name": "Deleting a dashboard",
+            "url": "api.serverdensity.io.\/users\/dashboards\/dashboardId",
+            "description": "Deleting a dashboard.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "dashboardId",
+                    "description": "ID of the dashboard to delete",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of the dashboard.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layout",
+                    "description": "Dictionary with the ids of the widgets from this dashboard as keys. The values are objects with 3 values: col (column), row (row), size_x (size in the x axis, from 1 to 6)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of the dashboard.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "layout",
+                    "description": "Dictionary with the ids of the widgets from this dashboard as keys. The values are objects with 3 values: col (column), row (row), size_x (size in the x axis, from 1 to 6)",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6e84b44e1965baf38619fd7045e41913",
+            "rawModeData": ""
+        },
+        {
+            "id": "3c9620bddbbfd52ac17160ccade9c519",
+            "name": "Duplicating a dashboard",
+            "url": "api.serverdensity.io.\/users\/dashboards\/duplicate\/dasboardId",
+            "description": "Duplicating a dashboard.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "dashboardId",
+                    "description": "ID of the dashboard to duplicate",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "new_name",
+                    "description": "Name of the new, duplicated dashboard",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "6e84b44e1965baf38619fd7045e41913",
+            "rawModeData": ""
+        }
+    ]
+}
