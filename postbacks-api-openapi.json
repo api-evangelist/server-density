@@ -1,0 +1,47 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Postbacks API",
+        "description": "The Postbacks API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "api.serverdensity.io."
+    ],
+    "paths": {
+        "\/alerts\/postbacks\/": {
+            "": {
+                "summary": "Creating a postback",
+                "description": "You can use this method to post data back to Server Density without using the agent, for example using your own scripts or to integrate in something custom you are doing. You will still be restricted to posting back once per minute using this method, as you would be using the agent.\n",
+                "operationId": "CreatingAPostback",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "body",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "payload",
+                        "in": "body",
+                        "description": "The payload you want to post back to us. Must contain the agentKey for the device to send the data to."
+                    },
+                    {
+                        "name": "hash",
+                        "in": "body",
+                        "description": "An md5 hash of the JSON encoded payload, used for error checking."
+                    },
+                    {
+                        "name": "X",
+                        "in": "body",
+                        "description": "Set this to your Server Density account url, e.g. example.serverdensity.io"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
