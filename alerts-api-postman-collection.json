@@ -1,0 +1,406 @@
+{
+    "id": "be6787a319e90432f86f811cce053404",
+    "name": "Alerts API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "bd6f7c43ba9c7e1c2b470ed33cd1ce0c",
+            "name": "Alerts",
+            "url": "api.serverdensity.io.\/alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} ",
+            "description": "Gets alerts filtered by set of optional parameters.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "da518e587b04a1fb10bcee969e5b0178",
+            "name": "Alerts",
+            "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
+            "description": "Gets alert by Id.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "a5390854a12579135949d86a0dda5d6b",
+            "name": "Alerts",
+            "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
+            "description": "Updates alert.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "38977ec5af398657a74d59ce0529b289",
+            "name": "Alerts",
+            "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
+            "description": "Deletes alert by Id.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " DELETE ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "ace9c233488769ed6957c12431fb1dd8",
+            "name": "Alerts",
+            "url": "api.serverdensity.io.\/alerts\/{alert_type} ",
+            "description": "Creates a new alert.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "9bfd6586ba62216fa2d0b8f2b21ca9b1",
+            "name": "Alerts Recipients",
+            "url": "api.serverdensity.io.\/alerts\/recipients ",
+            "description": "Gets a list of all alert recipient's targets that are visible to you as a customer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "2fdae21f304503a4ee7f0acde034dea3",
+            "name": "Alerts Recipients",
+            "url": "api.serverdensity.io.\/alerts\/recipients\/{recipient_id} ",
+            "description": "Gets a information about alert recipient's targets.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "e70ac7c89486d38bd80e45ca68867912",
+            "name": "Alerts Recipient",
+            "url": "api.serverdensity.io.\/alerts\/recipient\/{recipient_id} ",
+            "description": "Updates recipient along with sms and email targets associated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " PUT ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "99e36577e67dbb0a2cb202ba933e8e9a",
+            "name": "Alerts Recipient",
+            "url": "api.serverdensity.io.\/alerts\/recipient ",
+            "description": "Creates a new recipient with one sms and one email target associated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " POST ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "e7a78fbc7a52951eaf4e38f83bc8c225",
+            "name": "Alerts Targets",
+            "url": "api.serverdensity.io.\/alerts\/targets ",
+            "description": "Gets a list of all alert targets that are visible to you as a customer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": " GET ",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ef17d0d5c421bd35ac29bb836d34176",
+            "name": "Deleting an alert",
+            "url": "api.serverdensity.io.\/alerts\/configs\/alertId",
+            "description": "Deleting an alert",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "DELETE",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "alertId",
+                    "description": "The ID of the alert to be deleted",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "671138e0d85a615c8b9f681f334570a2",
+            "name": "Listing alerts by subject",
+            "url": "api.serverdensity.io.\/alerts\/configs\/subjectId",
+            "description": "Get a list of all configured alerts for a specific subject (device or service).",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "subjectId",
+                    "description": "The ID of the subject e.g. the device ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subjectType",
+                    "description": "The type of the subject - device or service",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subjectType",
+                    "description": "The type of the subject - device or service",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        },
+        {
+            "id": "dd171abae802de32398aaadafd8d2d55",
+            "name": "Triggered Alerts",
+            "url": "api.serverdensity.io.\/alerts\/triggered",
+            "description": "Get a list of all triggered alerts on your account, per subject (device or service) or per alert config.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "GET",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "closed",
+                    "description": "Whether to filter by closed or open alerts - unset = all alerts, false = open alerts, true = closed alerts.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subjectType",
+                    "description": "The type of the subject - device or service",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "You can provide a JSON encoded hash filter for the search that will return items that match the filter. The filter can include anything that is available on the triggered data, or the config that the triggered data contains.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "be6787a319e90432f86f811cce053404",
+            "rawModeData": ""
+        }
+    ]
+}
