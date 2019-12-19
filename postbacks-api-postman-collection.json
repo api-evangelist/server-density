@@ -1,0 +1,65 @@
+{
+    "id": "ac09d21a8953ceedb1cb2de8ba5ca9fa",
+    "name": "Postbacks API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "985918da0c2001eaba6bf15c4e018fb5",
+            "name": "Creating a postback",
+            "url": "api.serverdensity.io.\/alerts\/postbacks\/",
+            "description": "You can use this method to post data back to Server Density without using the agent, for example using your own scripts or to integrate in something custom you are doing. You will still be restricted to posting back once per minute using this method, as you would be using the agent.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "payload",
+                    "description": "The payload you want to post back to us. Must contain the agentKey for the device to send the data to.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hash",
+                    "description": "An md5 hash of the JSON encoded payload, used for error checking.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "X",
+                    "description": "Set this to your Server Density account url, e.g. example.serverdensity.io",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "ac09d21a8953ceedb1cb2de8ba5ca9fa",
+            "rawModeData": ""
+        }
+    ]
+}
