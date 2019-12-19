@@ -1,0 +1,393 @@
+{
+    "id": "b4476371a24e0964ee7bacbc43e507c7",
+    "name": "Devices API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "89f3938c0e2fa13ec7b6650b329e3d67",
+            "name": "Creating a device",
+            "url": "api.serverdensity.io.\/inventory\/devices",
+            "description": "You can create new devices via the API, useful if you want to automatically provision new devices and start monitoring automatically.\nThis API method is used by our Puppet manifest, Chef cookbook and installer shell script to automatically create devices during the agent installation.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of device.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cpuCores",
+                    "description": "Item???s number of cores.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "group",
+                    "description": "Name of group. This is set to ???null??? when a device doesn???t have a group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hostname",
+                    "description": "Device???s hostname",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "installedRAM",
+                    "description": "RAM installed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "os",
+                    "description": "A dictionary containing code and name. OS codes can be seen below",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "privateIPs",
+                    "description": "Item???s private IP addresses as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "publicIPs",
+                    "description": "Item???s public IP addresses as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "location",
+                    "description": "A dictionary containing countryCode, text (which is the city) and countryName",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "swapSpace",
+                    "description": "Item???s swap space",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "provider",
+                    "description": "The provider dependent string that identifies this item. If this field is set, provider is mandatory.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tags",
+                    "description": "A JSON list of tag IDs.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "rawModeData": ""
+        },
+        {
+            "id": "b09230687cda67aaea2659d4d6c47bc8",
+            "name": "Updating a device",
+            "url": "api.serverdensity.io.\/inventory\/devices\/deviceId",
+            "description": "Update a device and the associated metadata.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "deviceId",
+                    "description": "The ID of the device to update.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cpuCores",
+                    "description": "Item???s number of cores.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "group",
+                    "description": "Name of group. This is set to ???null??? when a device doesn???t have a group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hostname",
+                    "description": "Item???s hostname.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "installedRAM",
+                    "description": "RAM installed.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of the device.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "os",
+                    "description": "Operating system that it runs.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "privateIPs",
+                    "description": "Item???s private IP addresses as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "publicIPs",
+                    "description": "Item???s public IP addresss as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "swapSpace",
+                    "description": "Item???s swap space.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "provider",
+                    "description": "Provider where the item is hosted. For cloud items it may be ???amazon???, ???google??? or ???rackspace???.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "providerId",
+                    "description": "The provider dependent string that identifies this item. If this field is set, provider is mandatory.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tags",
+                    "description": "A JSON list of tag IDs.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "cpuCores",
+                    "description": "Item???s number of cores.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "group",
+                    "description": "Name of group. This is set to ???null??? when a device doesn???t have a group.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hostname",
+                    "description": "Device???s hostname",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "installedRAM",
+                    "description": "RAM installed",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "Name of device.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "os",
+                    "description": "A dictionary containing code and name. OS codes can be seen below",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "privateIPs",
+                    "description": "Item???s private IP addresses as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "publicIPs",
+                    "description": "Item???s public IP addresses as a JSON encoded list.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "swapSpace",
+                    "description": "Item???s swap space",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "provider",
+                    "description": "The provider dependent string that identifies this item. If this field is set, provider is mandatory.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "providerId",
+                    "description": "The provider dependent string that identifies this item. If this field is set, provider is mandatory.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tags",
+                    "description": "A JSON list of tag IDs.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "rawModeData": ""
+        },
+        {
+            "id": "9484004558c99a1bc532423452993f9e",
+            "name": "View device by agent key",
+            "url": "api.serverdensity.io.\/inventory\/devices\/agentKey\/byagentkey",
+            "description": "View device by agent key.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "agentKey",
+                    "description": "The key used by the agent",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "rawModeData": ""
+        }
+    ]
+}
