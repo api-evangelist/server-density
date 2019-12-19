@@ -1,0 +1,148 @@
+{
+    "id": "16a6ab291d782cc769d40be03f67c811",
+    "name": "Tokens API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "281cad254200f084680d5f8c3b4c3652",
+            "name": "Getting a token via the API",
+            "url": "api.serverdensity.io.\/tokens",
+            "description": "If you need to generate tokens programmatically, you can request a token through the API with your username and password. All future requests can then be performed using the returned token.\nIf the user generating the token has Multi Factor Authentication enabled, you cannot use this method and must create the token via the web UI.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "username",
+                    "description": "The token will be associated with this username",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "password",
+                    "description": "The token will be associated with this password",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "accountName",
+                    "description": "The Server Density account that the user is a member of e.g. if you log in at example.serverdensity.io your accountName is example",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tokenName",
+                    "description": "The name of the token, displayed in the UI",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "rawModeData": ""
+        },
+        {
+            "id": "c2dcbe0cf7939f83a8dadb232710d3bf",
+            "name": "Create a token",
+            "url": "api.serverdensity.io.\/tokens\/",
+            "description": "Create a token.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tokenName",
+                    "description": "The name of your new token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tokenName",
+                    "description": "The name of the token, displayed in the UI",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "rawModeData": ""
+        },
+        {
+            "id": "5798a9d7deabefc0804575fee1371e91",
+            "name": "Delete a token",
+            "url": "api.serverdensity.io.\/tokens\/tokenId",
+            "description": "Delete a token.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tokenId",
+                    "description": "The token you wish to delete.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "rawModeData": ""
+        }
+    ]
+}
