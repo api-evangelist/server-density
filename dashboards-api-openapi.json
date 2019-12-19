@@ -1,0 +1,87 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Dashboards API",
+        "description": "The Dashboards API.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "api.serverdensity.io."
+    ],
+    "paths": {
+        "\/users\/dashboards\/dashboardId": {
+            "": {
+                "summary": "Deleting a dashboard",
+                "description": "Deleting a dashboard.",
+                "operationId": "DeletingADashboard",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "dashboardId",
+                        "in": "path",
+                        "description": "ID of the dashboard to delete"
+                    },
+                    {
+                        "name": "token",
+                        "in": "path",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "token",
+                        "in": "body",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "name",
+                        "in": "path",
+                        "description": "Name of the dashboard."
+                    },
+                    {
+                        "name": "layout",
+                        "in": "path",
+                        "description": "Dictionary with the ids of the widgets from this dashboard as keys. The values are objects with 3 values: col (column), row (row), size_x (size in the x axis, from 1 to 6)"
+                    },
+                    {
+                        "name": "name",
+                        "in": "body",
+                        "description": "Name of the dashboard."
+                    },
+                    {
+                        "name": "layout",
+                        "in": "body",
+                        "description": "Dictionary with the ids of the widgets from this dashboard as keys. The values are objects with 3 values: col (column), row (row), size_x (size in the x axis, from 1 to 6)"
+                    }
+                ]
+            }
+        },
+        "\/users\/dashboards\/duplicate\/dasboardId": {
+            "": {
+                "summary": "Duplicating a dashboard",
+                "description": "Duplicating a dashboard.",
+                "operationId": "DuplicatingADashboard",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "token",
+                        "in": "body",
+                        "description": "Your API token"
+                    },
+                    {
+                        "name": "dashboardId",
+                        "in": "body",
+                        "description": "ID of the dashboard to duplicate"
+                    },
+                    {
+                        "name": "new_name",
+                        "in": "body",
+                        "description": "Name of the new, duplicated dashboard"
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
