@@ -1,0 +1,89 @@
+{
+    "id": "7067822009f6ab3d92e36b0aabb324ef",
+    "name": "Service Status API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "fcf433cd2db5b65477c8c4adb0844ffc",
+            "name": "Listing service alert metrics",
+            "url": "api.serverdensity.io.\/alerts\/service_alerts.json",
+            "description": "Devices and services have different alert metrics which you can configure in the ui. The section correspond to the top-level of the alert metric whereas field corresponds to the subsection of the given section.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7067822009f6ab3d92e36b0aabb324ef",
+            "rawModeData": ""
+        },
+        {
+            "id": "858a875018877801e60ba43c39b153d8",
+            "name": "Location service status (last)",
+            "url": "api.serverdensity.io.\/service-monitor\/last\/serviceId",
+            "description": "Get the current results from a service check.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "serviceId",
+                    "description": "The ID of the service to retrieve the details for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "7067822009f6ab3d92e36b0aabb324ef",
+            "rawModeData": ""
+        }
+    ]
+}
