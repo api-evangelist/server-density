@@ -1,0 +1,107 @@
+{
+    "id": "20b6e172ce52cb79f71d78d8be6d7d4d",
+    "name": "History API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "184ed6387dfff92da5f0a7571892fae8",
+            "name": "Listing costs",
+            "url": "api.serverdensity.io.\/alerts\/history\/",
+            "description": "Get the alerts history items limited by the given filter. If configId filter is set, then the results contains all events for that alert configuration. In any other case, the results are aggregated by itemId and configId including the following derived values:\n\nduration the sum of event durations.\ntriggeredCount the number of events for that alert in that item.\ncost the HumanOps cost in seconds. For more information please check our support docs\n\n\nWhen the query is aggregated, the non-derived fi",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "token",
+                    "description": "Your API token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start",
+                    "description": "A string in the format, the beginning of the time frame eg. 2016-03-10T12:35:07Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end",
+                    "description": "A string in the format, the end of the time frame eg. 2016-03-10T15:35:07Z",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "json encoded string - An array or a dict with all the fields we want returned",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filter",
+                    "description": "json encoded string - A dict with the filters we want to apply to the query (ex: {&quot;config.field&quot;:&quot;code&quot;}). The allowed filters are: config.section, config.field, config.fullField,",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sort",
+                    "description": "Field to sort by. Allowed values: itemName, config.fullField, fixed, duration, peak, startDate, cost, triggeredCount",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "order",
+                    "description": "Sort ordering: ascending, descending",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "page",
+                    "description": "Page number, default = 1",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "perPage",
+                    "description": "Documents that we&#39;re going to get per page. Default = 20",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "configId",
+                    "description": "_id of the config you want to limit by",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "20b6e172ce52cb79f71d78d8be6d7d4d",
+            "rawModeData": ""
+        }
+    ]
+}
