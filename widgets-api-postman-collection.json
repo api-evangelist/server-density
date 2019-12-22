@@ -1,5 +1,5 @@
 {
-    "id": "d515a63b09c84dac2e3cd5136702cfe3",
+    "id": "63c4a796c029d35d79835ebeb4231b96",
     "name": "Widgets API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "629a9c75a0840162d0b19ea3b2f9f6d8",
+            "id": "c0219f174b96da557c528ef136d35845",
             "name": "Deleting a widget",
             "url": "api.serverdensity.io.\/users\/widgets\/widgetId",
             "description": "Deleting a widget.",
@@ -51,11 +51,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d515a63b09c84dac2e3cd5136702cfe3",
+            "collectionId": "63c4a796c029d35d79835ebeb4231b96",
             "rawModeData": ""
         },
         {
-            "id": "ed8dcb70ef84e29ef24c279c4d4ad629",
+            "id": "3baf6a81daead4e525bcf05da6fdffa1",
             "name": "Duplicating a widget",
             "url": "api.serverdensity.io.\/users\/widgets\/duplicate\/widgetId",
             "description": "Duplicating a widget.",
@@ -96,7 +96,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "d515a63b09c84dac2e3cd5136702cfe3",
+            "collectionId": "63c4a796c029d35d79835ebeb4231b96",
             "rawModeData": ""
         }
     ]
