@@ -1,5 +1,5 @@
 {
-    "id": "b4476371a24e0964ee7bacbc43e507c7",
+    "id": "57ef9c52570a86de6f438d0bddbf8994",
     "name": "Devices API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "89f3938c0e2fa13ec7b6650b329e3d67",
+            "id": "1bef06423db5068df1438d654ca377d7",
             "name": "Creating a device",
             "url": "api.serverdensity.io.\/inventory\/devices",
             "description": "You can create new devices via the API, useful if you want to automatically provision new devices and start monitoring automatically.\nThis API method is used by our Puppet manifest, Chef cookbook and installer shell script to automatically create devices during the agent installation.\n",
@@ -128,11 +128,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "collectionId": "57ef9c52570a86de6f438d0bddbf8994",
             "rawModeData": ""
         },
         {
-            "id": "b09230687cda67aaea2659d4d6c47bc8",
+            "id": "cc3d5fee3d19c3f1799f068cfb52fb23",
             "name": "Updating a device",
             "url": "api.serverdensity.io.\/inventory\/devices\/deviceId",
             "description": "Update a device and the associated metadata.\n",
@@ -341,11 +341,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "collectionId": "57ef9c52570a86de6f438d0bddbf8994",
             "rawModeData": ""
         },
         {
-            "id": "9484004558c99a1bc532423452993f9e",
+            "id": "3b4ab804b6828efe5ed925080ac47e90",
             "name": "View device by agent key",
             "url": "api.serverdensity.io.\/inventory\/devices\/agentKey\/byagentkey",
             "description": "View device by agent key.",
@@ -386,7 +386,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "b4476371a24e0964ee7bacbc43e507c7",
+            "collectionId": "57ef9c52570a86de6f438d0bddbf8994",
             "rawModeData": ""
         }
     ]
