@@ -1,5 +1,5 @@
 {
-    "id": "ac09d21a8953ceedb1cb2de8ba5ca9fa",
+    "id": "eec7bb124f4cf34337618a8018df0be9",
     "name": "Postbacks API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "985918da0c2001eaba6bf15c4e018fb5",
+            "id": "00b924869469a53ba4024a3082d9267b",
             "name": "Creating a postback",
             "url": "api.serverdensity.io.\/alerts\/postbacks\/",
             "description": "You can use this method to post data back to Server Density without using the agent, for example using your own scripts or to integrate in something custom you are doing. You will still be restricted to posting back once per minute using this method, as you would be using the agent.\n",
@@ -58,7 +58,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "ac09d21a8953ceedb1cb2de8ba5ca9fa",
+            "collectionId": "eec7bb124f4cf34337618a8018df0be9",
             "rawModeData": ""
         }
     ]
