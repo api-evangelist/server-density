@@ -1,5 +1,5 @@
 {
-    "id": "20b6e172ce52cb79f71d78d8be6d7d4d",
+    "id": "602014f00c27d09e2ff0596773eff55d",
     "name": "History API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "184ed6387dfff92da5f0a7571892fae8",
+            "id": "dff5b32d13b703008955fd3ca5587617",
             "name": "Listing costs",
             "url": "api.serverdensity.io.\/alerts\/history\/",
             "description": "Get the alerts history items limited by the given filter. If configId filter is set, then the results contains all events for that alert configuration. In any other case, the results are aggregated by itemId and configId including the following derived values:\n\nduration the sum of event durations.\ntriggeredCount the number of events for that alert in that item.\ncost the HumanOps cost in seconds. For more information please check our support docs\n\n\nWhen the query is aggregated, the non-derived fi",
@@ -100,7 +100,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "20b6e172ce52cb79f71d78d8be6d7d4d",
+            "collectionId": "602014f00c27d09e2ff0596773eff55d",
             "rawModeData": ""
         }
     ]
