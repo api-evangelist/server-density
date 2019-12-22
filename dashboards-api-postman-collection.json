@@ -1,5 +1,5 @@
 {
-    "id": "6e84b44e1965baf38619fd7045e41913",
+    "id": "53fa13b797d9c87a1e4c6b473ea18bb9",
     "name": "Dashboards API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "1b028039807ddfa770282d8577054e2a",
+            "id": "42b35fb5cd7166696224fad5a269008a",
             "name": "Deleting a dashboard",
             "url": "api.serverdensity.io.\/users\/dashboards\/dashboardId",
             "description": "Deleting a dashboard.",
@@ -79,11 +79,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6e84b44e1965baf38619fd7045e41913",
+            "collectionId": "53fa13b797d9c87a1e4c6b473ea18bb9",
             "rawModeData": ""
         },
         {
-            "id": "3c9620bddbbfd52ac17160ccade9c519",
+            "id": "41c90cf05c68bff9968711c8253f2f55",
             "name": "Duplicating a dashboard",
             "url": "api.serverdensity.io.\/users\/dashboards\/duplicate\/dasboardId",
             "description": "Duplicating a dashboard.",
@@ -124,7 +124,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "6e84b44e1965baf38619fd7045e41913",
+            "collectionId": "53fa13b797d9c87a1e4c6b473ea18bb9",
             "rawModeData": ""
         }
     ]
