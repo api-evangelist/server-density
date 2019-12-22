@@ -1,5 +1,5 @@
 {
-    "id": "16a6ab291d782cc769d40be03f67c811",
+    "id": "34a05b69bdc3d45d5d7a6294ba2e726e",
     "name": "Tokens API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "281cad254200f084680d5f8c3b4c3652",
+            "id": "a57c9bdec4a18805a4cb9646387baa73",
             "name": "Getting a token via the API",
             "url": "api.serverdensity.io.\/tokens",
             "description": "If you need to generate tokens programmatically, you can request a token through the API with your username and password. All future requests can then be performed using the returned token.\nIf the user generating the token has Multi Factor Authentication enabled, you cannot use this method and must create the token via the web UI.\n",
@@ -58,11 +58,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "collectionId": "34a05b69bdc3d45d5d7a6294ba2e726e",
             "rawModeData": ""
         },
         {
-            "id": "c2dcbe0cf7939f83a8dadb232710d3bf",
+            "id": "786e6b71553255475addd2bcb9935c66",
             "name": "Create a token",
             "url": "api.serverdensity.io.\/tokens\/",
             "description": "Create a token.",
@@ -103,11 +103,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "collectionId": "34a05b69bdc3d45d5d7a6294ba2e726e",
             "rawModeData": ""
         },
         {
-            "id": "5798a9d7deabefc0804575fee1371e91",
+            "id": "591d18d20ecdb55982f6630cd51f98d5",
             "name": "Delete a token",
             "url": "api.serverdensity.io.\/tokens\/tokenId",
             "description": "Delete a token.",
@@ -141,7 +141,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "16a6ab291d782cc769d40be03f67c811",
+            "collectionId": "34a05b69bdc3d45d5d7a6294ba2e726e",
             "rawModeData": ""
         }
     ]
