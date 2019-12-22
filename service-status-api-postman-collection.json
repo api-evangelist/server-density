@@ -1,5 +1,5 @@
 {
-    "id": "7067822009f6ab3d92e36b0aabb324ef",
+    "id": "923bc4d85769a40b642fa1692e22c27f",
     "name": "Service Status API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "fcf433cd2db5b65477c8c4adb0844ffc",
+            "id": "ea14e94fc0835e2bc872b1f4c8344be5",
             "name": "Listing service alert metrics",
             "url": "api.serverdensity.io.\/alerts\/service_alerts.json",
             "description": "Devices and services have different alert metrics which you can configure in the ui. The section correspond to the top-level of the alert metric whereas field corresponds to the subsection of the given section.\n",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7067822009f6ab3d92e36b0aabb324ef",
+            "collectionId": "923bc4d85769a40b642fa1692e22c27f",
             "rawModeData": ""
         },
         {
-            "id": "858a875018877801e60ba43c39b153d8",
+            "id": "a9e19496d5d1a010a6a89f9e764a79c8",
             "name": "Location service status (last)",
             "url": "api.serverdensity.io.\/service-monitor\/last\/serviceId",
             "description": "Get the current results from a service check.\n",
@@ -82,7 +82,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "7067822009f6ab3d92e36b0aabb324ef",
+            "collectionId": "923bc4d85769a40b642fa1692e22c27f",
             "rawModeData": ""
         }
     ]
