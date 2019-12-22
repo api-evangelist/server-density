@@ -1,5 +1,5 @@
 {
-    "id": "be6787a319e90432f86f811cce053404",
+    "id": "b2cbb0fe9808680d6f983ad14113be28",
     "name": "Alerts API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "bd6f7c43ba9c7e1c2b470ed33cd1ce0c",
+            "id": "53dc31ab55df182739fdb8f397a732e8",
             "name": "Alerts",
             "url": "api.serverdensity.io.\/alerts?check_id={check_id}&amp;severity={severity}&amp;enabled={enabled}&amp;target_type={target_type}&amp;target_id={target_id} ",
             "description": "Gets alerts filtered by set of optional parameters.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "da518e587b04a1fb10bcee969e5b0178",
+            "id": "8d5b5e80885b086ed549da3ce42c8c33",
             "name": "Alerts",
             "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
             "description": "Gets alert by Id.",
@@ -52,11 +52,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "a5390854a12579135949d86a0dda5d6b",
+            "id": "69ca5e3ead8b24ca14d5ee41a6b9fe68",
             "name": "Alerts",
             "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
             "description": "Updates alert.",
@@ -75,11 +75,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "38977ec5af398657a74d59ce0529b289",
+            "id": "546ea43a09eddbd05cec89eb2f302a86",
             "name": "Alerts",
             "url": "api.serverdensity.io.\/alerts\/{alert_id} ",
             "description": "Deletes alert by Id.",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "ace9c233488769ed6957c12431fb1dd8",
+            "id": "04aa56e5f835b4eff1d13804e2e2f0f3",
             "name": "Alerts",
             "url": "api.serverdensity.io.\/alerts\/{alert_type} ",
             "description": "Creates a new alert.",
@@ -121,11 +121,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "9bfd6586ba62216fa2d0b8f2b21ca9b1",
+            "id": "5cf0b55b5d28251df30e918397b6c8b9",
             "name": "Alerts Recipients",
             "url": "api.serverdensity.io.\/alerts\/recipients ",
             "description": "Gets a list of all alert recipient's targets that are visible to you as a customer.",
@@ -144,11 +144,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "2fdae21f304503a4ee7f0acde034dea3",
+            "id": "c4d3f3c29a5c6ebece4b905e603289a7",
             "name": "Alerts Recipients",
             "url": "api.serverdensity.io.\/alerts\/recipients\/{recipient_id} ",
             "description": "Gets a information about alert recipient's targets.",
@@ -167,11 +167,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "e70ac7c89486d38bd80e45ca68867912",
+            "id": "8600494769948571f558ae2776fee27b",
             "name": "Alerts Recipient",
             "url": "api.serverdensity.io.\/alerts\/recipient\/{recipient_id} ",
             "description": "Updates recipient along with sms and email targets associated.",
@@ -190,11 +190,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "99e36577e67dbb0a2cb202ba933e8e9a",
+            "id": "30a41355c49d65835773a7c2c1c9b83e",
             "name": "Alerts Recipient",
             "url": "api.serverdensity.io.\/alerts\/recipient ",
             "description": "Creates a new recipient with one sms and one email target associated.",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "e7a78fbc7a52951eaf4e38f83bc8c225",
+            "id": "399ab441a62ee5e7b477254f8053b66c",
             "name": "Alerts Targets",
             "url": "api.serverdensity.io.\/alerts\/targets ",
             "description": "Gets a list of all alert targets that are visible to you as a customer.",
@@ -236,11 +236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "9ef17d0d5c421bd35ac29bb836d34176",
+            "id": "9abce870ac7b0d139821474293ea90e0",
             "name": "Deleting an alert",
             "url": "api.serverdensity.io.\/alerts\/configs\/alertId",
             "description": "Deleting an alert",
@@ -288,11 +288,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "671138e0d85a615c8b9f681f334570a2",
+            "id": "ac9e3940b5394a88a1e3b1df51948dc7",
             "name": "Listing alerts by subject",
             "url": "api.serverdensity.io.\/alerts\/configs\/subjectId",
             "description": "Get a list of all configured alerts for a specific subject (device or service).",
@@ -347,11 +347,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         },
         {
-            "id": "dd171abae802de32398aaadafd8d2d55",
+            "id": "e471b005740dd73e88ba42613ae067dc",
             "name": "Triggered Alerts",
             "url": "api.serverdensity.io.\/alerts\/triggered",
             "description": "Get a list of all triggered alerts on your account, per subject (device or service) or per alert config.",
@@ -399,7 +399,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "be6787a319e90432f86f811cce053404",
+            "collectionId": "b2cbb0fe9808680d6f983ad14113be28",
             "rawModeData": ""
         }
     ]
