@@ -1,4 +1,16 @@
 aid: server-density
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/server-density.png
 name: Server Density
 description: Server Density is a company surfaced as a portfolio company of point-nine, seedcamp and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -13,7 +25,11 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
+x-status-reason: 'Product acquired by StackPath and sunset; serverdensity.com domain
+  has lapsed and now resolves to an unrelated owner ("Zarpra IT Support"), and the
+  serverdensity GitHub org returns 404. No live API surface to enrich.'
 tags:
 - Company
 apis: []
@@ -25,3 +41,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.serverdensity.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
