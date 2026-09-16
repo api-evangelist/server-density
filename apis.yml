@@ -18,11 +18,13 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://www.serverdensity.com
+    status: 301
+    note: declared website redirects to https://zarpra.it.com/ — a different registrable domain (serverdensity.com
+      -> it.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://www.serverdensity.com', status: 301, note: 'declared website redirects to https://zarpra.it.com/ — a different registrable domain (serverdensity.com -> it.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/server-density.png
 name: Server Density
 description: Server Density is a company surfaced as a portfolio company of point-nine, seedcamp and added
@@ -38,13 +40,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 x-status: defunct
-x-status-reason: 'Product acquired by StackPath and sunset; serverdensity.com domain
-  has lapsed and now resolves to an unrelated owner ("Zarpra IT Support"), and the
-  serverdensity GitHub org returns 404. No live API surface to enrich.'
+x-status-reason: Product acquired by StackPath and sunset; serverdensity.com domain has lapsed and now
+  resolves to an unrelated owner ("Zarpra IT Support"), and the serverdensity GitHub org returns 404.
+  No live API surface to enrich.
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
